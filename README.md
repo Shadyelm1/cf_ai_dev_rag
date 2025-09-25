@@ -4,12 +4,12 @@ A RAG (Retrieval-Augmented Generation) powered documentation assistant built wit
 
 ## Features
 
-- 🔥 **RAG Pipeline**: Retrieves relevant documentation chunks and generates contextual responses
-- 🤖 **Workers AI Integration**: Uses `@cf/baai/bge-base-en-v1.5` for embeddings and `@cf/meta/llama-3.1-8b-instruct` for chat
-- 📊 **Vector Similarity Search**: Cosine similarity-based document retrieval
-- 💬 **Streaming Responses**: Real-time streaming chat interface
-- 🎨 **Clean UI**: Modern chat interface with Cloudflare branding
-- ⚡ **Edge Computing**: Runs on Cloudflare's global network for low latency
+-  **RAG Pipeline**: Retrieves relevant documentation chunks and generates contextual responses
+-  **Workers AI Integration**: Uses `@cf/baai/bge-base-en-v1.5` for embeddings and `@cf/meta/llama-3.1-8b-instruct` for chat
+-  **Vector Similarity Search**: Cosine similarity-based document retrieval
+-  **Streaming Responses**: Real-time streaming chat interface
+-  **Clean UI**: Modern chat interface with Cloudflare branding
+-  **Edge Computing**: Runs on Cloudflare's global network for low latency
 
 ## Architecture
 
@@ -143,7 +143,7 @@ await ai.run('@cf/baai/bge-base-en-v1.5', { text: [text] });
 await env.AI.run('@cf/meta/llama-3.1-8b-instruct', { messages, stream: true });
 ```
 
-## Technical Details
+## Technical 
 
 - **Vector Similarity**: Uses cosine similarity for semantic search
 - **Embedding Model**: BGE Base English v1.5 (768-dimensional embeddings)
@@ -158,6 +158,3 @@ await env.AI.run('@cf/meta/llama-3.1-8b-instruct', { messages, stream: true });
 - **Memory Usage**: Minimal, embeddings stored in Worker memory
 - **Scalability**: Automatically scales with Cloudflare Workers
 
-## License
-
-MIT License - feel free to use this for your own projects!
