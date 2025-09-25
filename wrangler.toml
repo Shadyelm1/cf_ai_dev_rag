@@ -1,0 +1,16 @@
+name = "cf-ai-dev-rag"
+main = "src/index.ts"
+compatibility_date = "2024-01-15"
+
+[ai]
+binding = "AI"
+
+[env.dev]
+name = "cf-ai-dev-rag-dev"
+
+[env.production]
+name = "cf-ai-dev-rag"
+
+[[bindings]]
+name = "AI"
+type = "ai"
