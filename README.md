@@ -14,7 +14,7 @@ A RAG  powered documentation assistant built with Cloudflare Workers AI. This pr
 ## Architecture
 
 ```
-User Query → Embedding Generation → Vector Search → Context Retrieval → LLM Generation → Streaming Response
+User Query  Embedding Generation  Vector Search  Context Retrieval  LLM Generation  Streaming Response
 ```
 
 1. **Vector Store**: Pre-computed embeddings of Cloudflare Workers documentation
