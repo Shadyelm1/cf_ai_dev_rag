@@ -1,6 +1,6 @@
 # Cloudflare Workers RAG Assistant
 
-A RAG (Retrieval-Augmented Generation) powered documentation assistant built with Cloudflare Workers AI. This project demonstrates how to build an intelligent chatbot that can answer questions about Cloudflare Workers using vector similarity search and AI-powered responses.
+A RAG  powered documentation assistant built with Cloudflare Workers AI. This project shows how to build an intelligent chatbot that can answer questions about Cloudflare Workers using vector similarity search and AI-powered responses.
 
 ## Features
 
@@ -78,7 +78,6 @@ Chat with the RAG assistant.
 Streaming text response with relevant context-aware answers.
 
 ### `GET /api/health`
-Health check endpoint.
 
 **Response:**
 ```json
