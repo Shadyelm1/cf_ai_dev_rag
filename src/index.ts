@@ -247,7 +247,7 @@ export default {
 <body>
     <div class="container">
         <div class="header">
-            <h1>🔥 Cloudflare Workers RAG Assistant</h1>
+            <h1>loudflare Workers RAG Assistant</h1>
             <p>Ask me anything about Cloudflare Workers!</p>
         </div>
         
